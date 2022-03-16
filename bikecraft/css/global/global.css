@@ -1,25 +1,36 @@
-body{
+body {
   margin: 0px;
-  font-family: 'Arial', sans-serif;
-  height: 2000px;
-  padding-bottom: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
 }
 
-h1, ul, p{
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
   margin: 0px;
 }
 
-ul{  
+ul {
   padding: 0px;
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
-  color: inherit;  
+  color: inherit;
 }
 
-img{
+img {
   max-width: 100%;
+  height: auto;
   display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
